@@ -1,0 +1,148 @@
+
+
+body {
+    background-image: url(/Img/photo-1492524127540-c9719a1e6cfd.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat ;
+    background-attachment: fixed ;
+    background-size: cover;
+}
+
+
+#center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+.frodo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.frodo img {
+    border-radius: 20px;
+    max-width: 100%;
+    height: 150px;
+    display: block;
+
+}
+
+.container {
+    margin : 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+.container > div{
+    margin: 10px;
+}
+
+.aragorn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.aragorn img {
+    max-width: 100%;
+    height: 150px;
+    border-radius: 20px;
+
+}
+
+
+.score{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+.text-1 {
+    color: white;
+    
+    
+}
+
+
+.text-2 {
+    color: white;
+    border: 1px solid red;
+    right: 10px;
+    float: right;
+    order: -1;
+    align-self: flex-end;
+    
+}
+
+
+
+#text {
+    text-align: center;
+    color: khaki;
+}
+
+
+#text-2 {
+    text-align: center;
+    color: lightskyblue;
+}
+
+
+
+#score-1 {
+    color: lightskyblue;
+}
+
+
+
+#score-2{
+    color: lightsteelblue;
+}
+
+
+
+.frodo-tool {
+  transition: opacity 0.5s ease;
+}
+
+
+.aragorn-tool {
+    transition: opacity 0.5s ease;
+}
+
+  
+.btn {
+    align-content: center;
+    color:red;
+    justify-content: center;
+    text-align:  center;
+    padding: 14px 28px;
+    border-radius:20px ;
+
+ 
+}
+
+.btn1 {
+   text-align: center;
+   height: 50px;
+  font-size: 20px;
+  
+
+}
+
+
+
+#max{
+    align-content: center;
+    justify-content: center;
+}
