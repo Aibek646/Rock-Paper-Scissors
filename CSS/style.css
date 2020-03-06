@@ -112,9 +112,14 @@ body {
 
 
 .frodo-tool {
-  transition: opacity 0.5s ease;
+    transition: background 1s;
 }
 
+@keyframes slide {
+    25%{
+      
+    }
+}
 
 .aragorn-tool {
     transition: opacity 0.5s ease;
@@ -145,4 +150,6 @@ body {
 #max{
     align-content: center;
     justify-content: center;
+    text-align: center;
+    color: greenyellow;
 }

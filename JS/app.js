@@ -629,7 +629,6 @@ const game = {
 
 console.log(game.aragornTool);
 console.log(game.frodoTool);
-console.log(game.score);
 
 
 
@@ -637,6 +636,8 @@ let button = document.querySelector('.btn');
 button.addEventListener('click' , () => {
     game.compareTool(game.pickTool(), game.pickTool());
 });
+
+console.log(game.score);
 
 
 
